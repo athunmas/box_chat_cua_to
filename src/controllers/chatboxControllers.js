@@ -2,7 +2,7 @@ require("dotenv").config();
 
 
 let getHomePage = (req, res) =>{
-    return res.send("Xin chao")
+    return res.send("Hello Word")
 };
 
 let getWebhook = (req , res) =>{
